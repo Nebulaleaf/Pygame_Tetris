@@ -1,16 +1,21 @@
 class Colors:
-	dark_grey = (26, 31, 40)
-	green = (47, 230, 23)
-	red = (232, 18, 18)
-	orange = (226, 116, 17)
-	yellow = (237, 234, 4)
-	purple = (166, 0, 247)
-	cyan = (21, 204, 209)
-	blue = (13, 64, 216)
-	white = (255, 255, 255)
-	dark_blue = (44, 44, 127)
-	light_blue = (59, 85, 162)
+    """
+    Class containing color definitions used in the game.
+    """
+    black = (0, 0, 0)
+    dark_grey = (50, 50, 50)
+    grey = (100, 100, 100)
+    light_grey = (150, 150, 150)
+    very_light_grey = (200, 200, 200)
+    red_1 = (139, 0, 0)         # Dark red
+    red_2 = (178, 34, 34)       # Firebrick
+    red_3 = (220, 20, 60)       # Crimson
+    red_4 = (255, 0, 0)         # Red
+    red_5 = (255, 99, 71)       # Tomato
+    red_6 = (255, 127, 80)      # Coral
+    red_7 = (255, 160, 122)     # Light Salmon
+    white = (255, 255, 255)
 
-	@classmethod
-	def get_cell_colors(cls):
-		return [cls.dark_grey, cls.green, cls.red, cls.orange, cls.yellow, cls.purple, cls.cyan, cls.blue]
+    @classmethod
+    def get_cell_colors(cls):
+        return [cls.black, cls.red_1, cls.red_2, cls.red_3, cls.red_4, cls.red_5, cls.red_6, cls.red_7]
