@@ -1,4 +1,4 @@
-# Python Tetris Game
+# Python (Pygame) Tetris Game
 
 Welcome to the Python Tetris Game! This is a classic Tetris game implemented in Python using the Pygame library, with several custom modifications and enhancements.
 
