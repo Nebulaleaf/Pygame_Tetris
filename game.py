@@ -12,6 +12,7 @@ class Game:
         self.next_block = self.get_random_block()
         self.game_over = False
         self.score = 0
+        self.rows_cleared = 0
         self.rotate_sound = pygame.mixer.Sound("Sounds/rotate.wav")
         self.clear_sound = pygame.mixer.Sound("Sounds/clear.wav")
 
@@ -27,6 +28,7 @@ class Game:
             self.score += 500
         elif lines_cleared == 4:
             self.score += 800
+        self.rows_cleared += lines_cleared
 
     def get_random_block(self):
         if len(self.blocks) == 0:
@@ -70,6 +72,7 @@ class Game:
         self.current_block = self.get_random_block()
         self.next_block = self.get_random_block()
         self.score = 0
+        self.rows_cleared = 0
 
     def block_fits(self):
         tiles = self.current_block.get_cell_positions()
