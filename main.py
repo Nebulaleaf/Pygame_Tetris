@@ -12,8 +12,8 @@ rows_surface = title_font.render("Rows", True, Colors.white)
 game_over_surface = title_font.render("GAME OVER", True, Colors.white)
 
 score_rect = pygame.Rect(320, 55, 170, 60)
-next_rect = pygame.Rect(320, 215, 170, 180)
-rows_rect = pygame.Rect(320, 420, 170, 60)
+next_rect = pygame.Rect(320, 190, 170, 90)
+rows_rect = pygame.Rect(320, 360, 170, 60)
 
 screen = pygame.display.set_mode((500, 620))
 pygame.display.set_caption("Python Tetris")
@@ -54,11 +54,11 @@ while True:
 
     screen.fill(Colors.dark_blue)
     screen.blit(score_surface, (365, 20, 50, 50))
-    screen.blit(next_surface, (375, 180, 50, 50))
-    screen.blit(rows_surface, (365, 400, 50, 50))
+    screen.blit(next_surface, (365, 155, 50, 50))
+    screen.blit(rows_surface, (365, 330, 50, 50))
 
     if game.game_over == True:
-        screen.blit(game_over_surface, (320, 450, 50, 50))
+        screen.blit(game_over_surface, (320, 500, 50, 50))
 
     pygame.draw.rect(screen, Colors.light_blue, score_rect, 0, 10)
     screen.blit(score_value_surface, score_value_surface.get_rect(centerx=score_rect.centerx, 

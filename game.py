@@ -100,8 +100,8 @@ class Game:
         self.current_block.draw(screen, 11, 11)
 
         if self.next_block.id == 3:
-            self.next_block.draw(screen, 255, 290)
+            self.next_block.draw(screen, 255, 220)
         elif self.next_block.id == 4:
-            self.next_block.draw(screen, 255, 280)
+            self.next_block.draw(screen, 255, 200)
         else:
-            self.next_block.draw(screen, 270, 270)
+            self.next_block.draw(screen, 270, 200)
