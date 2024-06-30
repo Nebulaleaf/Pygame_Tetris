@@ -22,7 +22,7 @@ Welcome to the Python Tetris Game! This is a classic Tetris game implemented in 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/python-tetris-game.git
+    git clone https://github.com/Nebulaleaf/pygame_tetris.git
     cd python-tetris-game
     ```
 
