@@ -49,7 +49,9 @@ To run the game, simply execute the `main.py` file:
 
 ## Credits
 
-This Tetris game was originally created based on a tutorial by the YouTube creator [@programmingwithnick](https://www.youtube.com/c/programmingwithnick). 
+This Tetris game was originally created based on a tutorial by the YouTube creator [@programmingwithnick](https://www.youtube.com/@programmingwithnick).
+
+Tutorial here: [Link](https://www.youtube.com/watch?v=nF_crEtmpBo)
 
 However, several modifications and enhancements have been made:
 
@@ -64,4 +66,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- A big thank you to [@programmingwithnick](https://www.youtube.com/c/programmingwithnick) for the original tutorial and inspiration.
+- A big thank you to [@programmingwithnick](https://www.youtube.com/@programmingwithnick) for the original tutorial and inspiration.
