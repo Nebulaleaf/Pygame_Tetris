@@ -13,10 +13,10 @@ class Game:
         self.game_over = False
         self.score = 0
         self.rows_cleared = 0
-        self.rotate_sound = pygame.mixer.Sound("Sounds/rotate.wav")
-        self.clear_sound = pygame.mixer.Sound("Sounds/clear.wav")
-
-        pygame.mixer.music.load("Sounds/music.wav")
+        self.rotate_sound = pygame.mixer.Sound("Python_Tetris/Sounds/rotate.wav")
+        self.clear_sound = pygame.mixer.Sound("Python_Tetris/Sounds/clear.wav")
+        
+        pygame.mixer.music.load("Python_Tetris/Sounds/music.wav")
         pygame.mixer.music.play(-1)
 
     def update_score(self, lines_cleared):
